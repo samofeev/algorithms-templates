@@ -1,6 +1,5 @@
 def get_longest_word(line: str) -> str:
-    # Здесь реализация вашего решения
-    pass
+    return max(line.split(), key=len)
 
 def read_input() -> str:
     _ = input()
